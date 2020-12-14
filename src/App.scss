@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 0%;
+  padding-top: 13vmin;
+  padding-left: 12vw;
+  padding-right: 10vw;
+}
+
+.App-footer {
+  padding: 5vmin 15vmin 2.5vmin;
+  opacity: 0.3;
+  font-size: calc(2vmin);
+}

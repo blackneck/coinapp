@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import CryptoCurrenciesForm from 'components/CryptoCurrenciesForm';
+import Background from 'components/Background';
+import CryptoCurrenciesList from 'components/CryptoCurrenciesList';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Background>
+        <div className="main-container">
+          <CryptoCurrenciesForm />
+          <CryptoCurrenciesList />
+        </div>
+      </Background>
+      <footer className="App-footer">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
+        rutrum nisi. Cras faucibus mattis cursus. Pellentesque id varius justo.
+        Aenean tristique bibendum magna. Aliquam tristique massa vel cursus
+        mattis. Donec iaculis magna at leo volutpat viverra. Maecenas et
+        suscipit nunc. Proin dui justo.
+      </footer>
     </div>
   );
 }
