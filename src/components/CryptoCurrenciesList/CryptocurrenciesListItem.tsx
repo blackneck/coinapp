@@ -3,7 +3,7 @@ import { useQuery } from '@apollo/client';
 import numeral from 'numeral';
 
 import trophyIcon from 'assets/icons/icon.svg';
-import { GET_PRICE_IN_EURO } from 'api/Queries';
+import { GET_PRICE_IN_EURO } from 'api/queries';
 import { CryptoCurrensiesListItemProps } from './types';
 import './styles.scss';
 

@@ -1,4 +1,4 @@
-import { CryptoCurrency } from 'components/CryptoCurrenciesProvider/types';
+import { CryptoCurrency } from 'context/types';
 
 export type CryptoCurrensiesListItemProps = {
   label: string;

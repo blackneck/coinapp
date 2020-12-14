@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { ApolloProvider } from '@apollo/client';
 
-import client from 'api/ApolloClient';
-import CryptoCurrenciesProvider from 'components/CryptoCurrenciesProvider';
+import client from 'api/apolloClient';
+import CryptoCurrenciesProvider from 'context';
 import App from './App';
 import './index.scss';
 

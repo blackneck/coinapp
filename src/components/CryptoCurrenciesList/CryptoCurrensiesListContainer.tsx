@@ -1,7 +1,7 @@
 import React, { useCallback, useContext, useMemo } from 'react';
 
-import { CryptoCurrency } from 'components/CryptoCurrenciesProvider/types';
-import { CryptoCurrenciesContext } from 'components/CryptoCurrenciesProvider';
+import { CryptoCurrency } from 'context/types';
+import { CryptoCurrenciesContext } from 'context';
 import CryptoCurrensiesList from './CryptoCurrensiesList';
 
 const CryptoCurrenciesListContainer = () => {

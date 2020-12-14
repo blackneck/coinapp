@@ -6,7 +6,7 @@ import React, {
   useContext,
 } from 'react';
 
-import { CryptoCurrenciesContext } from 'components/CryptoCurrenciesProvider';
+import { CryptoCurrenciesContext } from 'context';
 import CryptoCurrenciesForm from './CryptoCurrenciesForm';
 
 const CryptoCurrenciesFormContainer = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import CryptoCurrenciesForm from 'components/CryptoCurrenciesForm';
-import Background from 'components/Background';
-import CryptoCurrenciesList from 'components/CryptoCurrenciesList';
+import CryptoCurrenciesForm from 'components/CryptoCurrenciesForm/CryptoCurrenciesFormContainer';
+import Background from 'components/Background/BackgroundContainer';
+import CryptoCurrenciesList from 'components/CryptoCurrenciesList/CryptoCurrensiesListContainer';
 import './App.scss';
 
 function App() {
