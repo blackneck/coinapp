@@ -1,19 +1,19 @@
 import React from 'react';
 
 import CryptoCurrenciesForm from 'components/CryptoCurrenciesForm/CryptoCurrenciesFormContainer';
-import Background from 'components/Background/BackgroundContainer';
+import Home from 'components/Home/HomeContainer';
 import CryptoCurrenciesList from 'components/CryptoCurrenciesList/CryptoCurrensiesListContainer';
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Background>
+      <Home>
         <div className="main-container">
           <CryptoCurrenciesForm />
           <CryptoCurrenciesList />
         </div>
-      </Background>
+      </Home>
       <footer className="App-footer">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
         rutrum nisi. Cras faucibus mattis cursus. Pellentesque id varius justo.

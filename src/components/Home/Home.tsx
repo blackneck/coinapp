@@ -6,7 +6,7 @@ import logo from 'assets/icons/logo.svg';
 import { Props } from './types';
 import './styles.scss';
 
-const Background = ({ children }: Props) => (
+const Home = ({ children }: Props) => (
   <div className="background-container">
     {children}
     <img alt="" src={logo} className="background-logo" />
@@ -15,4 +15,4 @@ const Background = ({ children }: Props) => (
   </div>
 );
 
-export default Background;
+export default Home;
