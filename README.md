@@ -8,12 +8,14 @@ I preferred to use useContext instead of Redux store because of the simplicity o
 
 In the project directory, run:
 
-### `yarn` or `npm i`
+`yarn` or `npm i`
 
-## Run project in development mode
+## Build and run
 
-### `yarn start` or `npm run start`
+### Run project in development mode
 
-## Build project for production
+`yarn start` or `npm run start`
 
-### `yarn build` or `npm run build`
+### Build project for production
+
+`yarn build` or `npm run build`
